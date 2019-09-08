@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16E195" minimumToolsVersion="Xcode 8.0" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="CollectionModel" representedClassName="CollectionModel" syncable="YES" codeGenerationType="class">
+        <attribute name="htmlString" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="loadType" optional="YES" attributeType="Integer 64" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="urlString" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="MedicationModel" representedClassName="MedicationModel" syncable="YES" codeGenerationType="class">
+        <attribute name="drugName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="remarks" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="repeat" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="startTime" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="takeTimes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="userName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="warring" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="NewsMenuModel" representedClassName="NewsMenuModel" syncable="YES" codeGenerationType="class">
+        <attribute name="channelId" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="channelName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="channelType" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="CollectionModel" positionX="-54" positionY="18" width="128" height="103"/>
+        <element name="MedicationModel" positionX="-36" positionY="45" width="128" height="150"/>
+        <element name="NewsMenuModel" positionX="-63" positionY="-18" width="128" height="90"/>
+    </elements>
+</model>

@@ -1,0 +1,16 @@
+platform:ios,'8.0'
+target 'HaoYiDao' do
+pod 'SDWebImage'
+pod 'AMap2DMap'
+pod 'AMapSearch'
+pod 'AMapLocation'
+pod 'MJRefresh'
+pod 'RESideMenu'
+pod 'AFNetworking'
+pod 'ProgressHUD'
+pod 'FMDB'
+pod 'IQKeyboardManager'
+pod 'FDFullscreenPopGesture'
+pod 'Masonry'
+pod 'MagicalRecord'
+end
